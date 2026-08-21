@@ -7,7 +7,7 @@ terraform {
     }
 
     aci = {
-      source  = "CiscoDevNet/aci"
+      source = "app.terraform.io/GF-NETWORK-AND-SECURITY/aci"
       version = ">=2.0.0"
     }
   }
